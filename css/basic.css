@@ -1,0 +1,21 @@
+/*@font-face{
+  font-family: "cambria";
+  src: url("/font/cambriab.ttf");
+}*/
+
+section {
+    padding: 150px 0;
+  }
+.spt{
+    padding-top: 0px;
+}
+.hea{
+    width: 100%;
+    margin-top: 0px;
+    padding: 156px 0px 400px;
+    background-image: url(/imagenes/back.jpg);
+    background-origin: initial;
+    background-repeat: no-repeat;
+  }
+
+
