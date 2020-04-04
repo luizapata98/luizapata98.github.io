@@ -21,19 +21,17 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                    <a class="nav-link js-scroll-trigger" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link js-scroll-trigger" href="index.html#inicio">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Definiciones Generales
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item js-scroll-trigger" href="#Auditoria">Auditoria</a>
-                          <a class="dropdown-item js-scroll-trigger" href="#CtrlInt">Control Interno</a>
+                          <a class="dropdown-item js-scroll-trigger" href="index.html#Auditoria">Auditoria</a>
+                          <a class="dropdown-item js-scroll-trigger" href="index.html#CtrlInt">Control Interno</a>
                           <div class="dropdown-divider"></div>
-                          <a class="dropdown-item js-scroll-trigger" href="#Diferencias">Diferencias de Auditoria y Control Interno</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item js-scroll-trigger" href="#Audinfor">Auditoria de Sistemas</a>
+                          <a class="dropdown-item js-scroll-trigger" href="index.html#Diferencias">Diferencias de Auditoria y Control Interno</a>
                         </div>
                       </li>
                       <li class="nav-item dropdown">
@@ -75,33 +73,136 @@
               <h1>Proceso de auditoria</h1>
               <h2>Las Auditorias está compuesta por 5 fases las cuales son:</h2>
 
-
-
-
-              <!--=============================================-->
-              <p class="lead">Es un examen detallado, exacto, critico, objetivo, 
-                  sistemático de todos los procesos de administración, Estados y operaciones contables, y cualquier 
-                  actividad susceptible de control para cerciorarse de la exactitud, integridad y autenticidad de los estados y 
-                  operaciones de una empresa o entidad en base en criterios ya establecidos (ej. ISO, reglas, normas, etc.).
-              </p>
-              <p class="Lead"><b>Las Auditoria cuentan con 8 Objetivos fundamentales los cuales son:</b></p>
-              <ol>
-                <li>Mejorar la situación de la empresa.</li>
-                <li>Sugerir mejoras (en controles, procedimientos etc.).</li>
-                <li>Reunir elementos para la Toma de Decisiones.</li>
-                <li>Reducir los riesgos.</li>
-                <li>Retroalimentar oportunamente.</li>
-                <li>Optimizar el uso de recursos.</li>
-                <li>Analizar imparcialmente las funciones.</li>
-                <li>Estandarizar.</li>
-              </ol>
-              <div class="alert smr alert-info">Nota: Respecto al objetivo 2, el auditor no da las sugerencias, da pautas con las cuales los internos de la empresa tomaran las decisiones de como corregir o mejorar la actividad auditada.</div>
-              <p class="lead">Los Auditores realizan la revisión y evaluación de los sistemas para determinar una mejor información y control de la empresa, junto a la identificación de desperdicios, deficiencias para definir oportunidades de operaciones mas eficaces y mejor uso de los recursos. </p>
-              <br>
-              <h2>Tipos de Auditorias</h2>
-              <img src="/imagenes/Tipos de auditoria.png" width="100%" height="auto" alt="Tipos de Auditorias">
-              <div style="margin-top: 10px;" class="alert smr alert-info">Nota: Las Auditorias se caracterizan por ser realizadas por personal externo a la organización auditada para realizar examinación objetiva e imparcial con juicio crítico, por lo cual las auditoria internas se denominan Control interno ya que este es el encargado del seguimiento continuo en la organización (Razón por la cual se encuentran esos tipos de auditoria en color rojo).</div>
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        #1 Fase preliminar o de contratación.
+                      </button>
+                    </h5>
+                  </div>
               
+                  <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      <p class="lead">El auditor analiza el alcance de la auditoría a desarrollar y las posibles 
+                        limitaciones, luego toma la decisión de tomar o no el trabajo, en caso de que se acepte el trabajo se 
+                        deberá formalizar el acuerdo mediante la carta de encargo o un contrato similar, el cual debe constar 
+                        de 5 apartados los cuales son:
+                      </p>
+
+                      <p class="lean"><b>Encabezamiento:</b> aquí se referencia el acuerdo al que se ha llegado junto a su alcance, duración y donde se compromete a entregar el informe e informar a los administradores.</p>
+                      <p class="lean"><b>Responsabilidades y limitaciones de la auditoría:</b> el auditor expone las limitaciones de la auditoría, propiedad de los papeles de trabajo y su confidencialidad.</p>
+                      <p class="lean"><b>Responsabilidades y manifestaciones de los administradores:</b> formular cuentas anuales, llevar libros de contabilidad, mantener una estructura de control interno adecuada, emitir la carta de manifestaciones etc.</p>
+                      <p class="lean"><b>Honorarios y facturación:</b> criterio para fijar honorarios, importe, horas de trabajo etc.</p>
+                      <p class="lean"><b>Otros datos de interés:</b> fecha de entrega del informe.</p>
+
+
+                     </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        #2 Fase de planificación.
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                      <p class="lead">La planificación es la fase más importante del trabajo de auditoría, por lo cual 
+                        es necesario conocer la entidad, su entorno, principios y procedimientos contables que sigue y 
+                        el grado de fiabilidad del sistema de control interno, además de Revisión analítica preliminar 
+                        basada en el análisis económico-financiero de la entidad. ya que en la planificación se debe proveer 
+                        los pasos a seguir en su desarrollo y para que sea eficaz debe cumplir unos principios:
+                      </p>
+                      
+                      <ol>
+                        <li>Precisión las acciones previstas deben estar planteadas concretamente  </li>
+                        <li>Flexibilidad fácil adaptación a imprevistos.</li>
+                        <li>Unidad las acciones previstas deben estar coordinadas.</li>
+                      </ol>
+                      <p class="lead">Durante la fase de planificación, el auditor deberá obtener información que le 
+                        permitirá detectar las áreas de trabajo más significativas Esta información puede ser de carácter 
+                        Contable, Organizativo, Contractual, Registral y legales deberá seleccionar las áreas a las cuales 
+                        deberá prestar más atención debido a:</p>
+                      <br>
+                      <ul>
+                        <li>La importancia cuantitativa.</li>
+                        <li>La transcendencia para la continuidad.</li>
+                        <li>Probabilidad de que se cometan errores.</li>
+                        <li>La implicación legal que tenga para la empresa.</li>
+                      </ul>
+                      <br>
+                      <h2>Objetivos de la planificación de la auditoria</h2>
+                      <ul>
+                        <li>Mejorar la eficacia y la coordinación. (para evitar la omisión de procesos significativos).</li>
+                        <li>Dejar constancia del trabajo realizado.</li>
+                        <li>Facilitar la supervisión y el control del trabajo realizado por los colaboradores.</li>
+                        <li>Controlar el tiempo, Garantizando el cumplimiento de los tiempos presupuestados por el auditor.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        #3 Fase de ejecución.
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                      <p class="lead">La ejecución de las auditorías se da a través de la colecta de informaciones, 
+                        que determinan si el departamento en cuestión está siguiendo los estándares y procedimientos 
+                        de control de calidad establecidos. En esta fase, el auditor entrevista a las personas, haciendo 
+                        preguntas y tomando nota de las constataciones. De acuerdo con lo que sea constatado, los planes de 
+                        auditoría y checklists pueden tener su alcance expandido, y pueden ser sometidos a una evaluación más 
+                        profunda.</p>
+
+                      <p class="lead">Es en este momento que serán registradas las no conformidades, o sea, situaciones que ocurrieron en 
+                        desacuerdo con el proceso y procedimiento estandarizado.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      #4 Fase de finalización
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="lead">Después de concluida la ejecución de la auditoría el equipo de auditores se reúne 
+                      para evaluar y revisar las evidencias obtenidas en la auditoria permitiendoles asi identificar las áreas problemáticas, y poder determinar las recomendaciones para corregir 
+                      problemas de calidad. Esa informacion seran reflejada en el informe de Resultados de la Auditoría.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      #5 Fase de emisión de informe
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="lead">En esta Fase se procedera a hacer informe con respecto a cualquier asunto 
+                      importante que llamó la atención del auditor durante la ejecución de la auditoria</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
             </div>
           </div>
         </div>
@@ -111,30 +212,101 @@
     <section id="Evidencia">
         <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h1>Control Interno</h1>
-              <h2>¿Qué es control interno?</h2>
-              <p class="lead">Este es realizado por personas que laboran en la entidad y se realiza de manera continúa, 
-                  controlando un conjunto de métodos, procedimientos y planes de la organización que en forma conjunta 
-                  se llevan a cabo para verificar la confiabilidad y exactitud de la información, salvaguardar los activos, 
-                  hacer que se cumplan las políticas establecidas y promover la eficiencia operacional, para apegarse a los 
-                  estándares para disminuir los problemas frente a una auditoria.
+              <h1>Evidencias</h1>
+              <h2>¿Qué son las Evidencias de Auditoria?</h2>
+              <p class="lead">La evidencia de auditoría es la información/documentación utilizada por el auditor 
+                para alcanzar las conclusiones en las que basa su opinión. esta se obtiene de una mezcla apropiada 
+                de pruebas de control y de procedimientos sustantivos, estos permiten no tener dudas significativas 
+                en el proceso de evaluación de todos los elementos de juicio suministrados por todo el trabajo de 
+                auditoría.
               </p>
-              <p class="Lead"><b>El control interno busca cumplir 9 objetivos principales los cueles son:</b></p>
-              <ol>
-                <li> protección de activos.</li>
-                <li>El cumplimiento de las políticas establecidas y los requerimientos legales.</li>
-                <li>Cumplimiento de Autorizaciones requeridas.</li>
-                <li>Proceso de transacciones exacto y completo.</li>
-                <li>Control de Salidas (Outputs).</li>
-                <li>Confiabilidad del Proceso.</li>
-                <li>Procedimientos de Respaldo y Recuperación.</li>
-                <li> obtención de información veraz y oportuna.</li>
-                <li>Promoción de la Eficiencia y Economía Operacional.</li>
+              <p class="lead">Las pruebas de control son pruebas realizadas para obtener evidencia de auditoría sobre 
+                la adecuación del diseño y operación efectiva de los sistemas de contabilidad y de control interno. 
+                mientras que los Procedimientos sustantivos son pruebas realizadas para obtener evidencia de auditoría 
+                para detectar representaciones erróneas de importancia relativa y para obtener evidencia de auditoría en 
+                los estados financieros.</p>
 
+              <p class="lead">Es imprescindible que el auditor relacione el objetivo de su trabajo con la obtención de una evidencia suficiente, que tiene carácter cuantitativo, y adecuada, como característica cualitativa que le permita al auditor la emisión de su opinión profesional basada en su juicio. Por lo tanto, todos los hechos y aspectos relacionados con las cuentas anuales objeto de examen, que pueden ser verificados por el auditor, conforman la naturaleza de la evidencia.</p>
+              <p class="lead">El manejo en orden lógico de la evidencia, es la obtención de la misma, documentación de esta y evaluar su veracidad.</p>
+
+              <h2>Desarrollo legal de las evidencias</h2>
+              <p class="lead">Las Normas sobre Evidencia están establecidas en la sección 2.5. de las 
+                <a href="http://audinorsl.com/documentos/NORMAS_AUDITORIA.pdf"  target="_blank">Normas Técnicas de Auditoría</a>, 
+                donde se regulan los criterios y normas de obtención de evidencia por el auditor y sobre la información contenida 
+                en las cuentas anuales objeto de auditoría.</p>
+
+              <p class="lead">Dentro de las Normas Técnicas sobre ejecución del trabajo la tercera norma indica: 
+                “Debe obtenerse evidencia suficiente y adecuada, mediante la realización y evaluación de las pruebas de 
+                auditoría que se consideren necesarias, al objeto de obtener una base de juicio razonable sobre los datos 
+                contenidos en las cuentas anuales que se examinan y poder expresar una opinión respecto a las mismas”.</p>
+              
+              <h2>Nivel necesario de evidencia</h2>
+
+              <p class="lead">Independientemente del caso de auditoria el auditor debe decidir el nivel de evidencia necesario. 
+                En esta decisión debe considerar factores asociados con los términos: importancia relativa y riesgo, de carácter 
+                interdependiente.</p>
+
+              <ol>
+                <li>Importancia relativa.</li>
+                <p>La importancia relativa se define, en el apartado 2.5.16 de las Normas Técnicas de auditoría sobre 
+                  ejecución del trabajo, como “La magnitud o naturaleza de un error (incluyendo una omisión) en la 
+                  información financiera que, bien individualmente o en su conjunto, y a la luz de las circunstancias que 
+                  le rodean, hace probable que el juicio de una persona razonable, que confía en la información, se hubiera 
+                  visto influenciado o su decisión afectada como consecuencia del error u omisión”</p>
+
+                <li>Falta de evidencia suficiente.</li>
+                <p>Según el párrafo 2.5.11 de las Normas Técnicas sobre ejecución del trabajo: “La falta del suficiente 
+                  nivel de evidencia sobre un hecho de relevante importancia en el contexto de los datos que se examinan, 
+                  obliga al auditor a expresar las salvedades que correspondan o, en su caso, a denegar su opinión”.</p>
+
+                <li>Consideración del factor coste.</li>
+                <p>El factor coste se tiene en cuenta en la verificación y dictamen sobre la información, que necesita un nivel 
+                  de evidencia necesario para formar el juicio profesional. Con la obtención de un mayor nivel de evidencia aumenta 
+                  el tiempo para la realización de la auditoría y su coste, por lo que habría que evaluar si ese mayor nivel de 
+                  evidencia proporciona una utilidad final también superior en los resultados que se obtendrían bajo los niveles de 
+                  materialidad.</p>
               </ol>
-              <h2>Tipos de Control interno</h2>
-              <br>
-              <img src="/imagenes/Tipos de CI.png" width="100%" height="auto" alt="Tipos de Control interno">              
+              <h2>CLASES DE EVIDENCIAS</h2>
+              <p class="lead">La inspección proporciona distintos grados de evidencia según sea la naturaleza de la 
+                fuente y la efectividad de los controles internos. Las tres categorías más importantes de evidencia 
+                documental, que proporcionan al auditor distinto grado de confianza, son: </p>
+              <ol type="a">
+                <li>Evidencia documental producida y mantenida por terceros.</li>
+                <li>Evidencia documental producida por terceros y en poder de la entidad.</li>
+                <li>Evidencia documental producida y mantenida por la entidad.</li>
+              </ol>
+              
+              <p class="lead">En los casos que considere pertinente se recurrirá al trabajo de otros expertos; lo que ha sido objeto de desarrollo específico en la Resolución de 20 de diciembre de 1996, del Instituto de Contabilidad y Auditoría de cuentas por la que se publica la Norma Técnica de auditoría sobre “Utilización del trabajo de expertos independientes por auditores de cuentas”.</p>
+              <p class="lead"><b>se puede diferenciar una tipología de evidencias las cuales serían:</b></p>
+              <ol >
+                <li><b>Evidencia primaria:</b> es la relacionada con la existencia de una documentación original.</li>
+                <li><b>Evidencia secundaria:</b> es el caso de existir una copia o una fotocopia o bien se basa en la lectura de la propia documentación original.</li>
+                <li><b>Evidencia directa o física:</b> Si existe una confirmación de las personas involucradas en la operación. Puede ser: </li>
+                  <ul>
+                    <li>Interna: si procede del ámbito de la empresa auditada. </li>
+                    <li>Externa: si procede de terceros</li>
+                    <li>Física: de arqueos, recuentos, o inspecciones “físicas” en general</li>
+                  </ul>
+                <li><b>Evidencia circunstancial:</b> No lleva aparejada una conclusión definitiva</li>
+                <li><b>Evidencia para corroborar:</b> Se trata de una evidencia adicional a otra (por ejemplo, de carácter verbal o telefónico).</li>
+              </ol>
+
+              <h2>Métodos de obtener evidencia</h2>
+              <p class="lead">Siguiendo lo especificado en el punto 2.5.23 de las 
+                <a href="http://audinorsl.com/documentos/NORMAS_AUDITORIA.pdf"  target="_blank">Normas Técnicas 
+                  de Auditoría</a>, la evidencia de auditoría se obtiene, a través de pruebas de cumplimiento y 
+                  sustantivas, mediante uno o más de los siguientes métodos:</p>
+                <ol>
+                  <li> Inspección.</li>
+                  <li>Observación.</li>
+                  <li>Preguntas.</li>
+                  <li>Confirmaciones. </li>
+                  <li>Cálculos.</li>
+                  <li>Técnicas de examen analítico.</li>
+                </ol>
+              <p class="lead">Sin embargo, Los datos contables y, en general, toda información interna, no puede considerarse por sí mismo, evidencia suficiente y adecuada. El auditor debe llegar a la convicción de la razonabilidad de los mismos mediante la aplicación de las pruebas necesarias.</p>
+
+
             </div>
           </div>
         </div>
