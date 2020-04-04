@@ -13,19 +13,40 @@ section {
     width: 100%;
     margin-top: 0px;
     padding: 156px 0px 400px;
-    background-image: url(/imagenes/back.jpg);
+    background-image: url(/imagenes/black.png);
     background-origin: initial;
     background-repeat: no-repeat;
   }
 
-.heas{
-  width: 100%;
-  margin-top: 0px;
-  padding: 156px 0px 400px;
-  background-image: url(/imagenes/back.jpg);
-  background-origin: initial;
+
+
+#Def_Infor{
+  background-image: url(/imagenes/A_Informatica_des.png);
   background-repeat: no-repeat;
-  } 
+  background-attachment: fixed;
+  background-size: cover;
+  backface-visibility: visible;
+}
+
+#Perfil_audi{
+  background-image: url(/imagenes/Auditorinfo_des.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  backface-visibility: visible;
+}
+
+#Proceso{
+  background-image: url(/imagenes/Fases_des.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  backface-visibility: visible;
+}
+
+#Evidencia{
+  background-color: #012060;
+}
 
 
 .row{
@@ -39,10 +60,32 @@ section {
   
 }
 
+#Auditoria{
+  background-image: url(/imagenes/blue.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  backface-visibility: visible;
+  
+}
+
+#Diferencias{
+  background-image: linear-gradient(to bottom, 
+   rgba(255,168,76,0.6) 0%,rgba(255,123,13,0.6) 100%), 
+   url('https://www.xmple.com/wallpaper/white-gradient-blue-linear-2048x1536-c2-87cefa-ffffff-a-90-f-14.svg');
+  
+   background-blend-mode: soft-light;
+   background-size: cover;
+   background-position: center center;
+}
 
 
 @media (max-width: 768px) {
     .row{
         margin-left: 10px !important;
+    }
+
+    #Auditoria row div{
+      color: white;
     }
 }
