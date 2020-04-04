@@ -24,6 +24,13 @@ section {
     margin-right: 0px !important;
 }
 
+.thead-blue{
+    color: #fff;
+    background-color: #063782;
+    border-color: darkgray;
+  
+}
+
 
 
 @media (max-width: 768px) {
